@@ -1,7 +1,6 @@
 from pathlib import Path
 
 import pandas as pd
-from sklearn.preprocessing import LabelEncoder
 
 data_path = Path(__file__).with_name("student_performance_dataset.csv")
 df = pd.read_csv(data_path)
@@ -24,13 +23,16 @@ print(df.isnull().sum())
 df = pd.get_dummies(df, columns=['Parental_Education_Level'])
 print("\nOne-Hot Encoded Data:")
 print(df.columns.tolist())
-le = LabelEncoder()
-df['Pass_Fail_Encoded'] = le.fit_transform(df['Pass_Fail'])
+df["Pass_Fail_Encoded"] = df["Pass_Fail"].astype("category").cat.codes
 print("\nLabel Encoded Data:")
 print(df[['Pass_Fail', 'Pass_Fail_Encoded']].head())
-df['Gender_Encoded'] = le.fit_transform(df['Gender'])
-df['Internet_Access_Encoded'] = le.fit_transform(df['Internet_Access_at_Home'])
-df['Extracurricular_Encoded'] = le.fit_transform(df['Extracurricular_Activities'])
+df["Gender_Encoded"] = df["Gender"].astype("category").cat.codes
+df["Internet_Access_Encoded"] = (
+    df["Internet_Access_at_Home"].astype("category").cat.codes
+)
+df["Extracurricular_Encoded"] = (
+    df["Extracurricular_Activities"].astype("category").cat.codes
+)
 output_path = Path(__file__).with_name("students_performance_cleaned.csv")
 df.to_csv(output_path, index=False)
 print(f"\nCleaned dataset saved as '{output_path.name}'")

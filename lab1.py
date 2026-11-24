@@ -21,4 +21,3 @@ print(df.marks.mean())
 print(df.iloc[0:2])
 print(df.duplicated())
 print(df.isnull().sum())
-
