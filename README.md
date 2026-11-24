@@ -15,6 +15,5 @@ Data Analytics and Visualization lab programs.
 | lab9.py | Decision tree classifier: build, visualize, evaluate | student_data.csv |
 | lab10.py | K-Means clustering with elbow method and cluster visualization | student_data.csv |
 | lab11.py | Hierarchical clustering: dendrogram and agglomerative clustering | student_performance_dataset.csv |
-| lab12.py | Mini project: end-to-end pipeline (loading, EDA, preprocessing, models, visualization) | student_data.csv |
 
 Run any lab with `python labN.py` (needs numpy, pandas, matplotlib, seaborn, scipy, scikit-learn).
