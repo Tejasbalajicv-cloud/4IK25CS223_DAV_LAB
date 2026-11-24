@@ -1,0 +1,892 @@
+PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked
+1,1,3,"Moore, Mrs. Ada",female,26.0,0,0,183853,21.1925,,S
+2,0,2,"Johnson, Mr. James",male,25.0,1,0,206034,42.0331,,S
+3,1,3,"Johnson, Mr. George",male,44.0,0,0,386792,10.0517,,S
+4,1,3,"Brown, Mrs. Clara",female,32.0,0,0,293934,18.4037,,Q
+5,1,1,"Moore, Miss. Elizabeth",female,,0,0,279941,60.3547,A68,S
+6,0,3,"Taylor, Mr. John",male,34.0,4,0,359799,8.7099,,S
+7,0,3,"Rice, Mr. George",male,,0,0,PC 17697,14.5713,,C
+8,0,3,"Smith, Mr. Charles",male,17.0,0,1,PC 10391,12.45,,C
+9,0,1,"Taylor, Master. Albert",male,1.0,0,0,325925,67.4086,B44,S
+10,0,3,"Johnson, Mr. Arthur",male,19.0,1,0,251140,42.3018,,S
+11,1,2,"Williams, Mr. Charles",male,42.0,0,0,PC 13434,9.7923,,S
+12,0,3,"Johnson, Mr. Albert",male,15.0,0,0,PC 15438,16.5905,,C
+13,0,3,"Rice, Mr. Joseph",male,17.0,1,0,388388,9.5807,,S
+14,1,3,"Goodwin, Miss. Clara",female,16.0,0,1,339008,24.811,,S
+15,1,2,"Brown, Miss. Elizabeth",female,23.0,0,0,PC 10935,24.3794,,S
+16,1,1,"Smith, Mr. Charles",male,,0,0,167645,101.5437,B126,S
+17,0,3,"Carter, Mr. James",male,,0,0,367132,8.5416,,Q
+18,0,1,"Palsson, Mr. James",male,,4,1,250418,100.2471,E118,C
+19,0,3,"Rice, Mr. Edward",male,,0,1,106976,25.0477,,S
+20,1,3,"Taylor, Miss. Anna",female,,0,0,PC 15474,33.2081,,Q
+21,1,3,"Taylor, Mrs. Emily",female,,0,0,351163,17.4188,,S
+22,1,2,"Taylor, Miss. Florence",female,15.0,0,0,357697,13.4075,,S
+23,1,3,"Palsson, Miss. Mary",female,15.0,1,0,380221,18.6646,,S
+24,1,3,"Goodwin, Miss. Helen",female,17.0,0,0,367039,46.1147,,C
+25,0,3,"Taylor, Miss. Florence",female,11.0,1,0,237517,16.5829,,S
+26,1,1,"Johnson, Mr. Arthur",male,24.0,0,1,191632,200.6374,,S
+27,0,3,"Johnson, Mr. Thomas",male,23.0,0,0,205794,9.4615,,S
+28,1,1,"Andersson, Mr. Albert",male,22.0,0,0,PC 11079,82.2509,C68,S
+29,0,1,"Brown, Mr. Arthur",male,49.0,1,0,292916,131.6782,B75,Q
+30,0,3,"Andersson, Master. Joseph",male,10.0,0,0,260224,16.7109,,S
+31,0,3,"Johnson, Mrs. Alice",female,,0,0,129824,9.339,,S
+32,0,3,"Allen, Mr. Edward",male,19.0,1,0,PC 10957,10.5108,,S
+33,0,2,"Taylor, Mr. Frederick",male,31.0,0,1,309656,39.5841,,S
+34,0,2,"Harris, Mr. Thomas",male,13.0,0,0,PC 10335,38.1032,,S
+35,0,3,"Williams, Mr. Albert",male,47.0,0,0,325074,29.1795,,S
+36,0,1,"Allen, Mr. Arthur",male,53.0,1,0,122559,238.0651,C1,C
+37,1,1,"Sage, Mrs. Helen",female,42.0,0,0,122271,89.8486,C93,C
+38,0,3,"Taylor, Master. Edward",male,,0,4,PC 12049,18.7614,,C
+39,1,1,"Andersson, Mrs. Emily",female,,0,0,139525,165.0605,C8,S
+40,0,3,"Andersson, Master. Frederick",male,10.0,0,0,185366,19.5687,,S
+41,0,2,"Smith, Mr. Frederick",male,49.0,0,0,PC 13793,12.8494,,S
+42,0,3,"Moore, Master. James",male,8.0,0,3,PC 17061,11.8478,,S
+43,1,3,"Palsson, Mrs. Mary",female,,0,0,276588,17.5203,,C
+44,1,2,"Kelly, Miss. Alice",female,0.0,0,0,335909,19.2187,B52,S
+45,0,3,"Harris, Master. Albert",male,12.0,1,0,159802,15.5482,,S
+46,1,3,"Carter, Mrs. Alice",female,34.0,0,0,PC 10354,23.4217,,S
+47,0,2,"Johnson, Mr. Arthur",male,46.0,0,0,105646,30.6932,,
+48,0,2,"Kelly, Mrs. Helen",female,44.0,1,0,289522,46.9565,,S
+49,0,3,"Johnson, Master. Thomas",male,4.0,1,0,273161,5.9978,,S
+50,0,1,"Harris, Mr. Arthur",male,42.0,0,0,PC 19943,95.3463,A101,S
+51,1,1,"Kelly, Mrs. Emily",female,51.0,0,0,192058,118.8855,A30,S
+52,1,1,"Moore, Mr. George",male,16.0,0,1,304102,45.0281,C98,S
+53,0,3,"Williams, Mr. James",male,25.0,0,0,163416,9.8744,,C
+54,0,3,"Moore, Mr. John",male,29.0,0,0,140298,8.9994,,S
+55,1,3,"Andersson, Mr. John",male,21.0,0,0,172539,13.8494,,S
+56,0,3,"Goodwin, Miss. Alice",female,1.0,0,4,237896,49.468,,S
+57,0,3,"Goodwin, Miss. Ellen",female,21.0,0,0,133919,37.6635,,S
+58,1,3,"Smith, Miss. Margaret",female,21.0,0,0,392946,9.118,,C
+59,1,1,"Smith, Mr. James",male,36.0,0,1,123153,125.6949,,S
+60,0,1,"Carter, Mr. Thomas",male,31.0,0,0,212032,111.0761,A38,Q
+61,1,3,"Johnson, Master. George",male,10.0,1,0,157500,19.1245,,C
+62,0,3,"Carter, Mr. Albert",male,,1,0,259958,19.2334,,S
+63,0,3,"Palsson, Mr. George",male,31.0,0,0,363400,15.9469,,S
+64,0,3,"Carter, Miss. Anna",female,,0,0,395326,31.8546,,S
+65,1,3,"Sage, Miss. Emily",female,20.0,0,0,378730,23.7749,,S
+66,0,3,"Smith, Mrs. Ada",female,26.0,0,0,133215,8.0633,,S
+67,0,3,"Harris, Master. Frederick",male,0.0,1,1,PC 10647,26.5126,,S
+68,1,2,"Williams, Mr. Arthur",male,,0,0,131585,32.8092,,S
+69,1,1,"Kelly, Mr. Albert",male,38.0,0,0,306440,98.3272,E31,S
+70,0,2,"Harris, Mr. Joseph",male,,0,1,PC 10119,42.5209,,S
+71,0,1,"Andersson, Mr. Albert",male,50.0,0,0,396416,92.2824,,S
+72,0,2,"Andersson, Master. James",male,5.0,0,1,PC 16075,26.6961,,Q
+73,0,3,"Carter, Master. Arthur",male,0.0,0,0,PC 15082,14.5562,,S
+74,1,1,"Moore, Mrs. Clara",female,42.0,3,0,344272,44.4008,C128,S
+75,0,1,"Harris, Mr. Albert",male,38.0,0,0,219124,80.6902,E24,Q
+76,1,2,"Carter, Mrs. Helen",female,32.0,0,0,187521,15.0352,,S
+77,1,2,"Brown, Mr. Frederick",male,,0,1,247301,13.3439,,S
+78,0,3,"Kelly, Mr. William",male,34.0,0,1,142001,32.2709,,S
+79,0,3,"Kelly, Mr. Joseph",male,37.0,0,3,106459,25.5609,,S
+80,0,3,"Williams, Mr. George",male,31.0,0,0,192804,13.4972,,C
+81,0,3,"Kelly, Mr. Joseph",male,,1,1,207033,13.4282,,S
+82,0,2,"Goodwin, Master. Edward",male,,0,0,244272,24.3518,,S
+83,1,3,"Brown, Mrs. Alice",female,35.0,0,2,269374,29.2383,B25,S
+84,0,1,"Palsson, Mr. William",male,54.0,0,0,160808,55.5528,D84,S
+85,1,1,"Johnson, Master. Thomas",male,8.0,0,1,215043,96.3671,B115,S
+86,1,1,"Palsson, Mr. Joseph",male,27.0,0,0,147140,129.6515,,C
+87,0,3,"Brown, Mr. Edward",male,34.0,1,0,PC 12798,5.9844,,S
+88,0,3,"Andersson, Mr. Edward",male,36.0,0,0,154321,13.3113,,S
+89,1,1,"Allen, Mr. John",male,58.0,0,0,123466,0.0,C52,S
+90,1,3,"Kelly, Miss. Edith",female,,1,0,252754,14.7353,,Q
+91,0,1,"Sage, Mrs. Florence",female,35.0,0,2,204831,84.9758,E120,S
+92,0,3,"Goodwin, Mrs. Mary",female,35.0,0,0,380574,14.6759,,S
+93,1,2,"Moore, Mr. George",male,31.0,0,0,266108,54.9452,,S
+94,0,2,"Rice, Mr. Charles",male,15.0,0,0,337697,17.86,,C
+95,1,2,"Allen, Mrs. Alice",female,35.0,0,0,304806,24.2976,E16,S
+96,0,3,"Taylor, Mr. John",male,33.0,1,0,150968,42.7142,,C
+97,0,2,"Moore, Mr. William",male,31.0,1,2,119022,23.1288,,S
+98,0,1,"Moore, Mr. James",male,41.0,1,4,398930,364.2244,B62,Q
+99,1,1,"Smith, Mrs. Anna",female,35.0,8,0,150965,185.2925,D7,C
+100,0,3,"Harris, Mr. Thomas",male,44.0,1,0,377707,38.4019,,S
+101,1,3,"Allen, Miss. Edith",female,13.0,1,0,PC 12089,22.9257,,S
+102,1,3,"Smith, Miss. Emily",female,17.0,1,1,295136,20.7659,,S
+103,0,2,"Goodwin, Mr. Charles",male,30.0,1,0,PC 18809,23.3704,,S
+104,1,3,"Moore, Mrs. Ellen",female,,1,0,317799,11.5321,,S
+105,0,3,"Smith, Master. Henry",male,6.0,2,2,PC 15356,22.7666,,S
+106,0,3,"Sage, Master. John",male,8.0,0,1,PC 19418,24.6762,,Q
+107,1,2,"Baker, Master. William",male,,0,0,311376,20.8628,,S
+108,1,2,"Johnson, Mrs. Elizabeth",female,,0,0,256837,17.9253,,S
+109,0,1,"Taylor, Mr. Joseph",male,23.0,1,0,161525,85.2159,B55,S
+110,0,3,"Taylor, Mr. Charles",male,20.0,0,0,249840,22.5027,,S
+111,0,3,"Johnson, Mr. George",male,34.0,1,0,131897,29.0709,,S
+112,0,1,"Andersson, Mr. Henry",male,,1,0,199641,69.2002,A62,S
+113,0,2,"Williams, Mr. Albert",male,33.0,3,0,198549,21.7974,,S
+114,0,3,"Sage, Master. Thomas",male,5.0,0,0,PC 14283,16.5614,,Q
+115,0,1,"Baker, Mr. Henry",male,47.0,1,0,247293,207.3369,,S
+116,1,3,"Brown, Mrs. Helen",female,31.0,1,0,100382,27.9426,,Q
+117,1,3,"Williams, Mr. Edward",male,16.0,2,2,343799,11.7221,,S
+118,1,3,"Allen, Miss. Florence",female,,1,0,PC 14126,13.8062,,S
+119,0,2,"Baker, Mr. Edward",male,44.0,0,2,297758,17.1429,,S
+120,0,3,"Kelly, Mrs. Elizabeth",female,30.0,0,0,104148,11.9848,,S
+121,0,3,"Harris, Master. Charles",male,7.0,0,0,241859,30.5572,,C
+122,0,3,"Kelly, Master. Frederick",male,8.0,4,1,PC 19717,11.7719,,S
+123,1,1,"Moore, Miss. Alice",female,24.0,0,0,385589,37.3893,,S
+124,0,2,"Palsson, Mr. Albert",male,48.0,1,0,343845,15.9588,,C
+125,1,1,"Smith, Master. George",male,9.0,1,0,292555,111.5234,E36,S
+126,1,3,"Goodwin, Miss. Helen",female,5.0,0,0,377289,18.686,,C
+127,0,2,"Rice, Mrs. Helen",female,,0,0,PC 11661,26.1342,,S
+128,0,1,"Johnson, Mr. Charles",male,35.0,0,0,166205,151.2085,,Q
+129,0,1,"Sage, Mr. Arthur",male,47.0,1,0,267297,40.0063,E8,S
+130,1,3,"Brown, Miss. Anna",female,20.0,0,0,372174,24.8179,,S
+131,0,1,"Brown, Mrs. Emily",female,,0,0,PC 15284,71.8635,B60,S
+132,0,3,"Baker, Mrs. Ellen",female,36.0,1,0,150759,22.7123,,S
+133,0,3,"Taylor, Mr. Arthur",male,18.0,0,0,269099,7.0687,,Q
+134,1,2,"Allen, Miss. Ellen",female,11.0,1,0,152505,24.2099,,S
+135,0,3,"Andersson, Master. Albert",male,,0,0,213202,15.4179,,S
+136,1,1,"Rice, Miss. Clara",female,24.0,0,0,254630,149.7088,C88,S
+137,0,3,"Baker, Master. George",male,1.0,0,0,119707,6.2014,,Q
+138,0,3,"Brown, Mrs. Clara",female,34.0,0,0,387176,13.9123,,S
+139,1,3,"Carter, Mr. Albert",male,49.0,0,0,PC 15466,7.9628,,C
+140,0,1,"Goodwin, Mr. Thomas",male,57.0,1,0,PC 16969,124.3782,A106,S
+141,1,3,"Kelly, Miss. Ellen",female,4.0,0,5,150823,35.3614,,Q
+142,0,3,"Sage, Mr. Thomas",male,34.0,0,2,249085,33.8976,,S
+143,1,3,"Andersson, Mrs. Ellen",female,43.0,0,0,152032,10.4843,,S
+144,0,3,"Smith, Mr. John",male,19.0,0,0,144987,21.7804,,S
+145,0,3,"Smith, Mr. Edward",male,26.0,2,0,PC 13034,35.1706,,S
+146,1,2,"Smith, Master. Charles",male,,0,1,298124,10.6192,,Q
+147,0,2,"Johnson, Mr. Joseph",male,33.0,5,1,PC 19586,54.1928,,Q
+148,0,3,"Smith, Master. James",male,11.0,0,0,141852,22.1237,,S
+149,0,2,"Sage, Mr. Edward",male,33.0,0,0,PC 17631,18.4518,,Q
+150,0,1,"Johnson, Mr. Charles",male,,0,0,PC 17710,45.8525,C121,S
+151,1,3,"Rice, Miss. Ellen",female,11.0,0,1,PC 18144,25.2452,,S
+152,0,3,"Rice, Mrs. Margaret",female,38.0,1,1,295520,9.7767,,S
+153,1,1,"Baker, Mrs. Anna",female,28.0,0,0,151718,76.8335,D41,S
+154,0,3,"Allen, Master. Charles",male,10.0,0,0,PC 19472,13.4279,,S
+155,0,1,"Smith, Master. Albert",male,,0,0,202989,120.1314,C26,S
+156,0,3,"Goodwin, Mr. William",male,22.0,0,0,211980,10.015,,S
+157,1,2,"Smith, Miss. Florence",female,22.0,2,2,232455,23.8607,,C
+158,0,3,"Harris, Miss. Mary",female,5.0,3,0,358200,20.8722,,C
+159,0,3,"Baker, Master. Edward",male,10.0,1,0,294555,26.0587,,S
+160,1,3,"Carter, Miss. Elizabeth",female,19.0,1,0,382851,49.4461,,S
+161,1,1,"Williams, Mr. Charles",male,24.0,1,0,232791,45.4602,A100,C
+162,0,3,"Smith, Mr. George",male,18.0,0,1,193710,18.4457,,S
+163,0,1,"Andersson, Mr. John",male,,1,0,198107,56.1098,E120,C
+164,0,1,"Brown, Mr. George",male,46.0,0,1,127137,160.7715,A120,S
+165,0,3,"Sage, Miss. Alice",female,23.0,1,0,169428,9.8541,,S
+166,1,2,"Goodwin, Mrs. Emily",female,38.0,3,0,190608,21.7315,,S
+167,0,3,"Andersson, Master. Albert",male,10.0,0,0,PC 16679,10.2038,,C
+168,0,3,"Goodwin, Mr. Charles",male,25.0,1,0,137145,15.166,,Q
+169,0,2,"Smith, Mrs. Clara",female,32.0,2,0,PC 17704,32.0881,,S
+170,1,3,"Goodwin, Miss. Helen",female,,0,0,131970,17.4484,,Q
+171,1,2,"Brown, Mr. John",male,36.0,0,0,PC 13209,20.9395,,Q
+172,1,3,"Williams, Mr. William",male,,2,0,267088,9.1597,A64,S
+173,0,2,"Andersson, Mr. George",male,37.0,3,0,231347,43.8151,,C
+174,0,3,"Smith, Mr. Thomas",male,,0,0,304402,13.342,,S
+175,1,1,"Taylor, Miss. Clara",female,,0,1,369071,172.681,D62,S
+176,0,1,"Smith, Mr. Edward",male,53.0,1,2,PC 10078,85.4995,B38,S
+177,1,2,"Baker, Miss. Emily",female,0.0,0,0,365678,9.4252,,Q
+178,0,3,"Sage, Mr. Charles",male,17.0,0,1,141330,15.4892,,C
+179,1,3,"Andersson, Mr. George",male,38.0,0,0,PC 17655,26.1899,,S
+180,1,3,"Moore, Miss. Ellen",female,21.0,0,5,102544,25.984,,S
+181,0,3,"Sage, Master. John",male,12.0,0,0,317194,12.3983,,S
+182,0,3,"Moore, Master. John",male,11.0,0,0,302789,0.0,,C
+183,1,3,"Goodwin, Mrs. Margaret",female,38.0,0,0,PC 12921,32.9925,D55,Q
+184,1,2,"Williams, Miss. Elizabeth",female,5.0,1,1,113225,16.315,,S
+185,0,3,"Sage, Mr. Edward",male,40.0,0,0,127161,9.5324,,S
+186,0,3,"Sage, Mr. James",male,24.0,0,0,202038,18.2181,,S
+187,1,2,"Williams, Mr. John",male,,0,0,PC 14170,8.3021,,S
+188,1,1,"Sage, Mr. Arthur",male,30.0,0,0,195364,158.8741,,S
+189,0,3,"Baker, Master. Albert",male,12.0,0,1,100641,21.5258,,S
+190,0,2,"Johnson, Mr. Charles",male,41.0,0,0,268217,32.9219,,S
+191,0,3,"Smith, Miss. Helen",female,2.0,0,0,100292,18.1098,D107,S
+192,1,2,"Allen, Miss. Edith",female,,0,0,PC 11077,19.3746,,Q
+193,1,1,"Kelly, Mrs. Mary",female,,0,0,PC 14635,49.365,B13,S
+194,0,3,"Carter, Miss. Helen",female,14.0,0,0,PC 18263,12.7733,,S
+195,1,1,"Allen, Mrs. Anna",female,55.0,2,1,220780,74.7958,C80,C
+196,1,1,"Allen, Miss. Alice",female,20.0,1,2,251116,155.3154,,Q
+197,1,3,"Goodwin, Mrs. Ada",female,46.0,0,0,PC 19652,20.5074,,S
+198,0,3,"Andersson, Master. Frederick",male,6.0,0,0,156831,28.6685,,S
+199,0,1,"Brown, Mr. Albert",male,23.0,0,0,222125,101.1597,,S
+200,0,2,"Carter, Mr. Edward",male,21.0,0,0,126669,33.3417,,S
+201,1,3,"Rice, Mr. Joseph",male,,0,0,277663,11.8085,,S
+202,0,3,"Sage, Master. Frederick",male,8.0,0,0,PC 16609,10.7861,B2,S
+203,0,3,"Carter, Mr. Joseph",male,26.0,0,0,356507,17.3611,,S
+204,0,1,"Allen, Mr. Charles",male,22.0,0,0,163805,69.2401,A98,S
+205,1,1,"Johnson, Master. Thomas",male,10.0,1,0,323912,110.5173,,S
+206,0,1,"Baker, Mr. Henry",male,33.0,1,1,126643,64.2374,,S
+207,1,1,"Palsson, Miss. Margaret",female,15.0,1,0,203438,62.1633,A50,S
+208,1,3,"Goodwin, Miss. Helen",female,15.0,0,0,172932,18.8234,,S
+209,0,1,"Andersson, Mr. John",male,26.0,0,2,PC 16791,170.1237,A100,C
+210,0,3,"Sage, Mr. Henry",male,,0,0,135644,8.3693,,S
+211,0,3,"Williams, Mr. William",male,51.0,1,0,336287,22.0313,,S
+212,1,3,"Williams, Mrs. Margaret",female,26.0,0,0,PC 10004,10.4964,,S
+213,0,1,"Goodwin, Mrs. Helen",female,41.0,0,0,228575,84.6961,C115,S
+214,0,3,"Carter, Master. John",male,2.0,0,0,304741,27.8231,A101,Q
+215,1,3,"Harris, Miss. Ada",female,16.0,2,0,PC 17801,26.669,,C
+216,1,3,"Goodwin, Mr. Charles",male,28.0,0,0,PC 16513,20.3959,,S
+217,1,1,"Williams, Mr. George",male,25.0,0,0,252229,218.1563,A127,S
+218,1,1,"Smith, Mrs. Mary",female,50.0,0,0,246611,59.0791,,S
+219,0,3,"Rice, Master. Arthur",male,9.0,0,0,111644,8.3684,,S
+220,0,2,"Baker, Mr. Joseph",male,26.0,0,0,253461,14.6357,,S
+221,1,2,"Moore, Mr. George",male,22.0,0,0,116897,18.4908,,Q
+222,0,3,"Williams, Mr. William",male,27.0,0,1,207549,4.8544,,C
+223,1,3,"Andersson, Miss. Florence",female,17.0,1,0,359732,14.2029,,S
+224,1,3,"Smith, Miss. Ada",female,21.0,0,0,100830,10.4344,,S
+225,0,2,"Rice, Mr. George",male,,1,0,183435,35.7362,,S
+226,0,3,"Goodwin, Mr. John",male,,0,0,268644,16.3398,,S
+227,1,1,"Sage, Mrs. Anna",female,44.0,1,2,179744,90.2002,A116,S
+228,0,3,"Johnson, Mr. James",male,28.0,0,0,117832,18.4005,,Q
+229,1,3,"Rice, Miss. Florence",female,24.0,0,0,PC 12577,19.6687,,C
+230,1,1,"Moore, Miss. Ada",female,10.0,0,2,315310,74.3593,,S
+231,0,1,"Baker, Mr. Albert",male,,3,0,323679,95.1894,E125,S
+232,1,2,"Smith, Mrs. Edith",female,27.0,0,0,321876,6.9022,,S
+233,0,3,"Goodwin, Master. John",male,5.0,1,0,282307,9.1324,,C
+234,0,3,"Brown, Mr. Albert",male,26.0,1,0,122205,10.8691,,S
+235,0,3,"Moore, Mr. Thomas",male,47.0,0,0,239237,14.2176,,S
+236,0,3,"Johnson, Master. George",male,4.0,0,0,PC 15275,8.5395,,S
+237,0,3,"Smith, Mrs. Florence",female,35.0,0,0,313776,10.598,,S
+238,1,3,"Sage, Miss. Mary",female,0.0,0,1,PC 12751,8.5377,,S
+239,1,1,"Baker, Mrs. Edith",female,41.0,0,0,286519,91.5032,B67,S
+240,1,1,"Moore, Mrs. Ada",female,58.0,0,0,346252,103.9255,E109,S
+241,0,3,"Smith, Mr. Frederick",male,31.0,0,0,312884,16.753,,C
+242,0,3,"Rice, Mr. Frederick",male,27.0,0,0,220322,13.7849,,S
+243,1,1,"Williams, Mrs. Alice",female,31.0,1,0,174247,44.7031,A68,S
+244,1,3,"Moore, Mrs. Mary",female,25.0,0,1,170652,11.5557,C28,C
+245,0,3,"Palsson, Mr. Frederick",male,22.0,1,0,268794,12.8521,,S
+246,0,3,"Rice, Mr. Joseph",male,15.0,0,0,335666,11.1981,,S
+247,0,3,"Rice, Mr. Arthur",male,21.0,0,0,342472,14.2234,,S
+248,0,2,"Rice, Mr. John",male,,0,0,PC 10375,42.8323,,S
+249,1,2,"Andersson, Miss. Margaret",female,20.0,0,0,PC 11143,31.5184,,C
+250,0,2,"Kelly, Mr. George",male,20.0,0,2,PC 19821,16.662,,S
+251,1,3,"Andersson, Miss. Florence",female,6.0,3,0,224777,27.887,,S
+252,0,3,"Johnson, Mrs. Edith",female,30.0,0,0,307475,18.8695,,S
+253,0,3,"Palsson, Mrs. Ada",female,32.0,0,4,PC 12478,14.6489,A44,S
+254,1,2,"Smith, Mr. Thomas",male,33.0,0,0,223225,32.1032,,S
+255,0,1,"Moore, Mr. Charles",male,51.0,0,2,PC 15729,100.7853,C102,C
+256,1,3,"Harris, Mrs. Mary",female,,0,0,PC 18367,6.7694,,C
+257,1,3,"Rice, Mrs. Margaret",female,,0,0,106670,17.2015,,C
+258,1,1,"Baker, Mr. George",male,42.0,0,2,173001,121.7125,D34,S
+259,0,1,"Andersson, Mrs. Ellen",female,,0,0,131181,74.9618,D5,S
+260,0,3,"Carter, Mr. Charles",male,18.0,0,0,241939,13.4458,,C
+261,1,1,"Baker, Mrs. Alice",female,67.0,8,0,PC 15868,128.9896,E121,S
+262,0,3,"Sage, Mr. Joseph",male,19.0,0,0,166973,18.587,,S
+263,1,2,"Brown, Mr. Frederick",male,21.0,0,0,PC 18432,20.5487,,C
+264,0,1,"Andersson, Mr. William",male,44.0,3,0,281109,132.3705,,S
+265,0,3,"Smith, Mr. George",male,28.0,0,0,191779,16.3785,,S
+266,1,1,"Allen, Mr. Edward",male,20.0,0,0,140303,47.159,,C
+267,0,2,"Moore, Mr. Frederick",male,45.0,1,0,228772,15.4428,,S
+268,0,1,"Kelly, Mr. Frederick",male,37.0,1,0,PC 10463,31.9959,D52,S
+269,1,1,"Andersson, Miss. Elizabeth",female,10.0,1,0,169811,128.1178,A95,S
+270,0,1,"Kelly, Mr. Henry",male,53.0,0,0,353254,45.8196,C21,Q
+271,1,1,"Andersson, Mrs. Clara",female,46.0,4,0,PC 16028,143.6106,C29,S
+272,1,1,"Williams, Miss. Alice",female,22.0,0,0,159857,101.1203,,C
+273,0,1,"Allen, Mr. Charles",male,61.0,5,0,PC 11897,0.0,,S
+274,0,3,"Sage, Mr. Albert",male,34.0,1,0,367515,8.6292,,S
+275,0,3,"Sage, Mrs. Anna",female,25.0,2,0,155201,17.2391,,S
+276,1,2,"Goodwin, Mrs. Florence",female,51.0,0,0,PC 13052,48.4079,,S
+277,0,2,"Andersson, Mr. Arthur",male,32.0,0,6,PC 18631,94.0225,,S
+278,1,3,"Sage, Mrs. Anna",female,25.0,0,2,204296,29.1782,,S
+279,0,3,"Brown, Mr. Edward",male,,0,0,239868,16.2183,,S
+280,0,3,"Andersson, Mr. Charles",male,33.0,0,2,321849,10.7748,,S
+281,1,1,"Goodwin, Mrs. Clara",female,,2,1,360544,174.4592,E113,C
+282,1,1,"Carter, Mr. Arthur",male,38.0,0,0,396211,77.6185,,C
+283,1,1,"Williams, Mrs. Clara",female,28.0,0,0,220655,111.1723,B75,S
+284,1,2,"Williams, Mr. James",male,32.0,0,0,283288,15.3038,,S
+285,1,3,"Goodwin, Miss. Edith",female,24.0,0,0,PC 14391,12.5652,,S
+286,0,2,"Moore, Mr. Albert",male,13.0,0,0,281502,22.7963,,S
+287,0,1,"Johnson, Mr. Joseph",male,19.0,0,0,163482,95.0075,B42,S
+288,0,2,"Goodwin, Mr. Joseph",male,37.0,1,0,310962,30.912,,S
+289,1,3,"Smith, Master. James",male,0.0,1,2,230324,14.8702,,S
+290,0,1,"Palsson, Mrs. Clara",female,41.0,0,0,246559,42.913,E122,S
+291,0,3,"Brown, Mr. James",male,,0,0,PC 12499,30.8701,,Q
+292,0,1,"Sage, Mr. Thomas",male,55.0,0,0,PC 17123,291.6178,B99,S
+293,0,3,"Baker, Mr. Albert",male,,1,0,140554,19.7049,,S
+294,0,1,"Harris, Mr. Albert",male,47.0,1,1,PC 15089,56.3276,A117,S
+295,1,3,"Andersson, Miss. Ada",female,,0,0,370055,9.3073,,S
+296,0,3,"Carter, Master. Charles",male,1.0,1,0,342187,0.0,,S
+297,0,3,"Smith, Mrs. Elizabeth",female,,0,0,342889,26.788,,S
+298,1,3,"Andersson, Master. Charles",male,4.0,0,0,274125,7.4704,,S
+299,1,3,"Andersson, Mrs. Anna",female,38.0,1,0,314415,14.8054,,S
+300,0,3,"Allen, Master. Arthur",male,12.0,0,1,170768,17.3766,,S
+301,0,3,"Johnson, Mr. Henry",male,,0,0,156325,21.1087,B85,S
+302,0,1,"Baker, Mrs. Alice",female,50.0,0,0,366579,70.7404,A28,C
+303,0,3,"Brown, Mrs. Mary",female,34.0,0,0,PC 16969,6.2682,,Q
+304,0,3,"Moore, Mrs. Alice",female,50.0,0,0,266683,18.6901,,C
+305,0,3,"Johnson, Mr. Arthur",male,15.0,0,0,295397,24.0418,,S
+306,0,3,"Rice, Master. Edward",male,7.0,0,0,379383,13.1458,,S
+307,1,2,"Johnson, Miss. Mary",female,17.0,0,0,PC 10381,25.7167,,S
+308,1,3,"Andersson, Mr. John",male,34.0,1,0,193036,12.4275,,C
+309,1,2,"Harris, Mrs. Alice",female,,0,2,PC 14724,0.0,,Q
+310,0,1,"Rice, Mr. John",male,39.0,2,0,392709,182.435,B65,C
+311,0,3,"Goodwin, Master. Albert",male,,0,0,PC 10434,0.0,,S
+312,0,2,"Brown, Mrs. Ellen",female,40.0,0,0,PC 13915,26.835,,S
+313,1,1,"Harris, Miss. Anna",female,22.0,0,0,108894,178.0162,,C
+314,0,2,"Williams, Mr. Frederick",male,45.0,1,0,269394,14.2515,,S
+315,1,2,"Taylor, Mr. George",male,67.0,0,0,PC 14486,15.9349,,S
+316,1,2,"Johnson, Mr. William",male,35.0,1,0,179204,26.1344,,S
+317,0,2,"Taylor, Mr. Henry",male,,0,0,358367,15.8373,,S
+318,0,3,"Sage, Mr. James",male,19.0,0,0,322756,20.2664,,S
+319,1,2,"Rice, Master. Charles",male,6.0,0,0,326928,19.1217,,S
+320,1,3,"Harris, Miss. Clara",female,,0,0,245588,8.3406,,C
+321,1,3,"Harris, Miss. Ada",female,,0,0,368891,14.158,,Q
+322,0,3,"Harris, Master. George",male,6.0,0,0,PC 17094,14.918,,C
+323,0,2,"Moore, Mr. Joseph",male,52.0,0,0,355636,33.5107,,S
+324,0,3,"Rice, Mr. William",male,29.0,0,1,157983,19.1773,,S
+325,0,3,"Palsson, Mr. Henry",male,30.0,0,2,329719,22.4285,,S
+326,1,3,"Johnson, Mr. Thomas",male,21.0,0,0,PC 12189,16.0794,,C
+327,1,3,"Moore, Mr. Henry",male,,0,0,107655,12.4695,,S
+328,1,3,"Rice, Mrs. Elizabeth",female,,0,0,PC 14980,9.5763,,Q
+329,1,3,"Andersson, Mr. Albert",male,,0,0,341115,15.8285,,S
+330,0,2,"Sage, Mr. Arthur",male,37.0,0,0,105865,17.778,,S
+331,0,3,"Rice, Mr. George",male,22.0,0,1,188307,36.674,,C
+332,1,1,"Baker, Mrs. Edith",female,34.0,1,0,PC 17259,188.9854,B27,S
+333,0,3,"Brown, Master. John",male,,0,0,211354,18.7992,,Q
+334,1,3,"Brown, Master. Edward",male,0.0,0,0,176513,16.554,,S
+335,1,1,"Brown, Mrs. Margaret",female,35.0,1,0,237395,92.4436,A53,S
+336,0,3,"Sage, Mr. John",male,26.0,0,1,304540,8.3863,,S
+337,1,1,"Kelly, Mr. Edward",male,21.0,0,0,371317,75.3942,E123,C
+338,0,3,"Baker, Mrs. Helen",female,25.0,3,0,PC 18170,20.8981,,S
+339,0,1,"Goodwin, Mr. Henry",male,39.0,2,0,132331,122.4753,C27,C
+340,0,3,"Carter, Master. Henry",male,0.0,1,0,290612,19.924,,C
+341,1,1,"Baker, Mr. James",male,26.0,0,0,380205,133.1507,C86,S
+342,0,3,"Harris, Mr. James",male,30.0,0,0,157977,9.6922,,C
+343,1,3,"Moore, Miss. Ellen",female,3.0,5,0,PC 15987,17.0385,,Q
+344,1,3,"Smith, Master. Joseph",male,10.0,3,0,272885,41.0335,,S
+345,1,3,"Sage, Mr. James",male,27.0,0,1,277700,23.1651,,C
+346,0,3,"Baker, Mr. George",male,38.0,0,0,232173,11.2685,,S
+347,0,3,"Smith, Mr. Joseph",male,35.0,0,0,282417,12.9849,,S
+348,0,2,"Sage, Mr. Joseph",male,29.0,0,1,PC 19002,22.941,,S
+349,0,3,"Brown, Master. Frederick",male,10.0,1,0,PC 19395,16.0057,,C
+350,1,1,"Sage, Mrs. Helen",female,30.0,0,0,145849,106.395,,S
+351,0,3,"Rice, Mr. Henry",male,31.0,0,2,104783,63.2602,,S
+352,1,1,"Smith, Mr. Henry",male,,0,0,162977,92.3601,A22,S
+353,0,3,"Palsson, Mr. Thomas",male,33.0,0,0,PC 14941,19.081,,S
+354,0,3,"Brown, Mr. James",male,27.0,0,0,301555,5.8953,,C
+355,0,3,"Taylor, Mr. James",male,36.0,0,0,326350,10.7504,D66,Q
+356,0,3,"Allen, Mr. Arthur",male,26.0,0,0,252030,25.3253,,S
+357,0,3,"Kelly, Mr. William",male,35.0,3,1,304414,26.8042,,S
+358,1,3,"Goodwin, Mrs. Ellen",female,36.0,0,0,255475,1.5263,,Q
+359,1,3,"Smith, Miss. Emily",female,,0,1,PC 19954,22.0689,,S
+360,0,3,"Smith, Master. George",male,1.0,0,0,241445,35.7474,,S
+361,0,3,"Williams, Mr. Arthur",male,45.0,0,0,202672,5.0503,,Q
+362,1,1,"Baker, Mr. Edward",male,41.0,0,0,317577,179.5602,,C
+363,0,1,"Goodwin, Mr. James",male,16.0,0,0,115081,21.0066,,S
+364,0,1,"Johnson, Mr. Frederick",male,29.0,0,0,227142,134.2651,B48,S
+365,0,3,"Sage, Mrs. Emily",female,35.0,0,0,231492,13.6409,,Q
+366,1,2,"Goodwin, Mrs. Alice",female,,0,0,245707,6.4853,,S
+367,0,3,"Palsson, Miss. Florence",female,,0,0,PC 14212,17.1237,,S
+368,1,3,"Andersson, Mr. Edward",male,43.0,0,0,227757,24.3569,,C
+369,1,2,"Brown, Miss. Margaret",female,,0,0,346969,25.1905,,S
+370,1,3,"Rice, Mr. Albert",male,,0,0,287920,18.3533,,S
+371,0,3,"Johnson, Mr. Joseph",male,28.0,0,0,327343,11.1513,,S
+372,0,2,"Allen, Mr. Joseph",male,35.0,0,0,PC 12977,8.2799,,S
+373,1,2,"Rice, Mrs. Mary",female,36.0,0,0,170785,29.6794,,S
+374,1,2,"Goodwin, Mr. Thomas",male,42.0,0,0,PC 19128,50.3702,,S
+375,1,1,"Brown, Mrs. Helen",female,41.0,8,0,116477,325.0778,,S
+376,0,1,"Smith, Mr. Joseph",male,,8,0,191200,68.3975,B82,C
+377,0,3,"Allen, Miss. Emily",female,22.0,4,0,PC 13031,10.2775,,S
+378,1,2,"Smith, Mr. Frederick",male,31.0,0,0,285638,13.7569,,S
+379,0,2,"Smith, Mr. Thomas",male,31.0,0,0,309027,9.4691,,S
+380,1,3,"Sage, Mrs. Florence",female,28.0,0,1,354352,16.107,,S
+381,0,3,"Sage, Mr. Frederick",male,35.0,0,1,375378,19.18,,C
+382,1,3,"Moore, Master. Frederick",male,6.0,0,0,182457,6.7011,,S
+383,0,3,"Smith, Mr. Frederick",male,26.0,0,0,PC 13237,20.2056,,S
+384,0,3,"Andersson, Mr. Arthur",male,14.0,0,0,337023,18.5033,,C
+385,0,2,"Baker, Mr. John",male,31.0,0,6,268146,30.3348,,S
+386,0,3,"Johnson, Mr. Edward",male,,0,0,334072,12.5678,,S
+387,0,3,"Brown, Mr. Albert",male,28.0,1,0,374228,5.9433,,C
+388,0,3,"Harris, Mrs. Emily",female,54.0,0,0,218816,11.603,,S
+389,0,1,"Taylor, Mr. William",male,31.0,1,0,PC 17068,96.9574,,C
+390,0,3,"Harris, Mr. Albert",male,,0,0,298543,14.9061,,C
+391,0,3,"Smith, Mr. William",male,39.0,0,0,323842,16.5574,,Q
+392,1,1,"Brown, Mr. George",male,39.0,0,0,PC 12508,94.9108,D69,S
+393,0,3,"Brown, Mr. William",male,55.0,0,0,383357,12.0038,,C
+394,1,3,"Taylor, Miss. Helen",female,20.0,0,1,159884,18.1788,,S
+395,1,1,"Kelly, Mrs. Helen",female,42.0,0,1,337692,159.4284,E32,S
+396,0,3,"Baker, Mr. Charles",male,,0,0,170746,13.0612,B98,Q
+397,0,3,"Carter, Mr. Albert",male,20.0,0,0,PC 16688,16.0578,,S
+398,0,2,"Smith, Mr. Charles",male,,0,0,350486,19.1334,,C
+399,0,3,"Goodwin, Mr. Henry",male,36.0,2,1,247360,14.3763,,S
+400,0,2,"Taylor, Mr. Arthur",male,34.0,0,0,245192,27.2748,,S
+401,0,2,"Kelly, Mrs. Edith",female,46.0,0,0,367344,15.9094,,S
+402,0,3,"Andersson, Mr. William",male,24.0,0,1,PC 18961,19.1104,,Q
+403,1,3,"Baker, Mr. James",male,21.0,0,0,219419,13.8949,,S
+404,0,1,"Kelly, Mr. Joseph",male,73.0,0,0,338723,72.1574,A30,S
+405,0,3,"Sage, Mr. Arthur",male,30.0,0,0,363696,11.6269,,S
+406,0,3,"Williams, Mr. Henry",male,16.0,1,0,290546,12.2203,,C
+407,0,2,"Brown, Master. William",male,2.0,0,0,184824,9.2223,,S
+408,1,3,"Brown, Miss. Florence",female,13.0,0,0,398046,16.5907,,S
+409,0,1,"Andersson, Mr. Edward",male,50.0,0,2,308854,122.6034,E9,S
+410,0,3,"Kelly, Mr. Henry",male,,1,0,PC 14500,24.0947,,S
+411,0,3,"Taylor, Mr. Arthur",male,,1,1,343628,13.654,,S
+412,1,3,"Smith, Miss. Edith",female,24.0,3,0,PC 19004,51.2467,,S
+413,0,1,"Baker, Mr. Edward",male,48.0,0,0,169805,69.4737,C26,Q
+414,1,3,"Brown, Miss. Ellen",female,,0,2,308802,11.4984,,C
+415,1,1,"Palsson, Miss. Ellen",female,24.0,0,0,PC 11814,51.1097,E78,S
+416,0,2,"Sage, Mr. Henry",male,33.0,1,0,209778,10.1485,,S
+417,1,1,"Palsson, Mrs. Helen",female,46.0,0,0,336098,180.7529,,S
+418,1,3,"Rice, Mr. Edward",male,,0,0,PC 16165,27.1922,,Q
+419,1,1,"Williams, Mrs. Ellen",female,27.0,0,1,PC 13464,130.445,B54,S
+420,0,3,"Rice, Mr. Charles",male,,0,0,275104,8.7526,,S
+421,1,3,"Goodwin, Miss. Anna",female,15.0,0,0,260281,33.8869,,Q
+422,0,1,"Sage, Mr. Edward",male,,0,0,334642,70.4538,D36,S
+423,0,1,"Moore, Mr. Joseph",male,26.0,0,0,PC 12201,0.0,B95,S
+424,1,1,"Palsson, Mr. George",male,55.0,1,0,148836,198.1865,C61,S
+425,0,3,"Goodwin, Mrs. Alice",female,,0,0,PC 14658,19.0459,,S
+426,0,3,"Smith, Mr. William",male,33.0,1,0,151479,47.3567,,S
+427,0,1,"Allen, Mr. Albert",male,54.0,0,0,176187,95.1237,A57,Q
+428,0,3,"Carter, Mrs. Clara",female,62.0,1,1,PC 15945,14.6033,,S
+429,1,1,"Rice, Miss. Emily",female,16.0,0,0,PC 16258,61.8625,C80,S
+430,1,3,"Rice, Mr. George",male,15.0,2,0,324829,0.0,,C
+431,1,3,"Carter, Mr. Edward",male,17.0,0,0,192654,11.9186,,C
+432,0,3,"Palsson, Mr. Henry",male,14.0,0,0,368830,24.281,,S
+433,0,3,"Sage, Miss. Ada",female,11.0,0,0,PC 18989,18.4823,,C
+434,0,3,"Johnson, Mr. James",male,21.0,0,0,295746,13.8398,,S
+435,1,1,"Carter, Miss. Mary",female,22.0,0,0,139931,51.0778,B115,S
+436,1,1,"Kelly, Mr. Henry",male,,1,1,308685,122.3172,A93,S
+437,0,1,"Sage, Mr. William",male,39.0,3,0,219335,0.0,B5,S
+438,0,3,"Williams, Mr. Joseph",male,,0,0,315124,16.9922,,Q
+439,0,3,"Baker, Mr. Frederick",male,,0,3,150875,21.5921,,C
+440,0,3,"Harris, Mrs. Anna",female,33.0,0,0,PC 16899,9.1974,,S
+441,0,3,"Andersson, Mr. Charles",male,20.0,1,1,220886,27.477,C3,S
+442,1,1,"Andersson, Mr. Edward",male,,1,0,PC 19568,20.1787,D11,Q
+443,1,3,"Kelly, Mrs. Clara",female,28.0,0,1,344146,19.0789,,S
+444,1,1,"Williams, Miss. Helen",female,14.0,3,0,PC 11602,440.3374,D129,S
+445,1,2,"Goodwin, Miss. Elizabeth",female,4.0,0,0,345410,9.8783,,S
+446,0,3,"Rice, Master. Joseph",male,2.0,1,0,352846,13.9639,,S
+447,0,3,"Palsson, Mr. Charles",male,,4,0,145200,21.8335,,S
+448,1,3,"Moore, Miss. Edith",female,,1,0,266915,12.5017,,Q
+449,1,1,"Andersson, Master. Henry",male,1.0,0,3,PC 11967,204.4999,D15,S
+450,0,3,"Moore, Mr. Thomas",male,51.0,0,0,PC 12143,17.3505,,S
+451,1,1,"Harris, Mrs. Edith",female,45.0,0,0,148133,90.6465,B64,C
+452,0,3,"Williams, Mr. Henry",male,34.0,1,1,PC 17692,26.5332,,S
+453,0,3,"Harris, Mr. William",male,13.0,0,0,266616,13.8152,,C
+454,1,1,"Brown, Mrs. Emily",female,25.0,1,0,PC 10730,473.6701,D72,S
+455,1,1,"Brown, Master. Albert",male,6.0,1,0,PC 14487,104.1938,D92,S
+456,0,1,"Harris, Mr. Edward",male,40.0,0,0,200877,92.6156,D92,S
+457,0,3,"Sage, Master. Thomas",male,,0,0,PC 17157,5.825,,C
+458,0,3,"Carter, Mr. Edward",male,23.0,0,0,157612,10.4403,,S
+459,0,3,"Sage, Mr. Thomas",male,25.0,0,0,351790,24.3148,,C
+460,1,3,"Brown, Miss. Emily",female,22.0,0,0,PC 11744,7.0264,,S
+461,1,3,"Palsson, Miss. Emily",female,14.0,0,0,179982,4.6581,,S
+462,0,1,"Williams, Master. William",male,12.0,0,0,380327,85.3683,A121,C
+463,0,3,"Sage, Mr. George",male,23.0,0,0,287364,27.1878,,S
+464,1,2,"Andersson, Mrs. Ada",female,31.0,0,0,226991,21.4498,,C
+465,0,3,"Kelly, Mr. Thomas",male,,0,0,PC 15551,11.5806,D125,S
+466,0,3,"Allen, Mr. Frederick",male,39.0,0,0,PC 16775,5.4095,,S
+467,0,3,"Carter, Mr. Edward",male,,0,0,116575,17.1762,,C
+468,0,3,"Johnson, Miss. Emily",female,19.0,0,0,178431,19.0684,,S
+469,1,1,"Johnson, Master. John",male,7.0,1,1,PC 18731,44.8048,C10,S
+470,1,3,"Allen, Mrs. Elizabeth",female,33.0,0,0,224582,24.1591,,S
+471,0,2,"Smith, Mr. William",male,24.0,0,0,152029,30.7956,,C
+472,0,3,"Rice, Mr. Joseph",male,,2,0,229341,31.3721,,S
+473,0,1,"Sage, Mr. Albert",male,51.0,0,0,138958,112.4579,D81,S
+474,0,1,"Sage, Mr. Arthur",male,,0,1,391616,133.9438,A122,C
+475,0,2,"Kelly, Mr. James",male,53.0,0,2,281990,35.419,,S
+476,0,2,"Johnson, Mr. Thomas",male,19.0,0,2,PC 10632,42.1453,,Q
+477,0,2,"Brown, Mr. John",male,,0,0,396145,8.4583,,C
+478,0,3,"Sage, Mr. Albert",male,,1,0,PC 14283,7.4382,,S
+479,0,3,"Andersson, Mr. William",male,24.0,1,0,356438,10.9043,,Q
+480,1,2,"Baker, Mr. William",male,,0,0,168335,19.6802,,S
+481,1,2,"Taylor, Miss. Ellen",female,11.0,0,0,175431,25.4978,,S
+482,0,1,"Moore, Mr. Henry",male,39.0,0,0,369358,98.8059,B78,S
+483,1,3,"Allen, Miss. Elizabeth",female,15.0,0,0,PC 13301,23.9495,,S
+484,1,2,"Allen, Mrs. Florence",female,31.0,0,2,PC 18744,48.4792,,S
+485,1,1,"Baker, Mr. John",male,28.0,1,0,300079,62.4512,E53,S
+486,1,2,"Brown, Miss. Mary",female,16.0,1,0,135590,27.2097,,S
+487,1,3,"Rice, Miss. Mary",female,11.0,0,1,PC 17833,10.3113,,S
+488,0,1,"Moore, Mr. George",male,40.0,0,0,PC 19490,76.4543,C28,S
+489,0,3,"Williams, Mr. Albert",male,,0,0,344619,16.0915,,C
+490,0,3,"Goodwin, Master. Henry",male,9.0,0,0,PC 11944,2.4919,,S
+491,0,3,"Moore, Mr. Frederick",male,29.0,1,0,253294,52.6033,,S
+492,0,3,"Palsson, Mr. Thomas",male,31.0,0,0,275241,18.1851,,S
+493,0,3,"Baker, Miss. Florence",female,,1,0,154259,11.6967,,S
+494,1,2,"Baker, Miss. Ada",female,13.0,1,0,PC 16773,63.3053,,S
+495,0,3,"Harris, Mr. George",male,46.0,2,0,PC 19097,14.9699,,S
+496,1,3,"Baker, Miss. Ada",female,11.0,0,0,245848,14.6385,,S
+497,0,2,"Johnson, Mr. Joseph",male,,0,0,PC 15302,16.4605,,C
+498,1,3,"Allen, Miss. Florence",female,24.0,1,1,273432,40.6808,,S
+499,0,2,"Baker, Mr. Thomas",male,29.0,1,0,307864,22.915,,S
+500,1,3,"Baker, Miss. Ellen",female,13.0,0,0,171146,14.7632,,C
+501,1,3,"Johnson, Miss. Emily",female,,1,0,PC 16175,28.7618,,S
+502,0,3,"Brown, Mr. Albert",male,,0,1,282178,21.1096,,S
+503,0,3,"Rice, Master. Arthur",male,4.0,0,0,335931,13.3327,,S
+504,1,3,"Allen, Miss. Alice",female,7.0,1,0,396980,27.4496,,S
+505,0,3,"Sage, Mr. Albert",male,37.0,0,0,232305,48.7467,,S
+506,0,3,"Brown, Mr. Arthur",male,31.0,0,0,PC 10721,16.0563,,S
+507,0,2,"Sage, Miss. Ellen",female,22.0,3,0,PC 18435,32.2806,,S
+508,0,3,"Palsson, Master. James",male,,1,0,264334,17.1581,,Q
+509,0,3,"Brown, Mr. John",male,15.0,1,0,274144,30.3371,,S
+510,1,1,"Rice, Mr. James",male,37.0,0,0,PC 18333,62.2537,A29,S
+511,1,1,"Allen, Mr. John",male,53.0,8,0,PC 15555,160.7926,D53,S
+512,1,3,"Rice, Miss. Ada",female,12.0,0,0,291056,6.3514,,C
+513,0,1,"Sage, Mr. William",male,,0,0,253371,0.0,A115,S
+514,0,2,"Carter, Mr. Edward",male,,0,0,344895,16.2099,D24,S
+515,0,2,"Goodwin, Master. Joseph",male,0.0,1,0,253623,23.4839,,S
+516,1,1,"Allen, Mrs. Ellen",female,,1,2,317450,294.9843,A105,C
+517,0,2,"Andersson, Mr. William",male,,1,1,PC 15248,35.6904,,S
+518,1,3,"Moore, Miss. Emily",female,12.0,0,1,143105,9.9853,,S
+519,1,1,"Taylor, Miss. Ellen",female,3.0,0,0,359419,58.3714,E115,S
+520,0,3,"Carter, Mrs. Emily",female,39.0,0,0,PC 16978,27.2423,,S
+521,1,3,"Goodwin, Mrs. Elizabeth",female,32.0,0,0,148210,24.0636,,S
+522,1,2,"Carter, Miss. Florence",female,,0,0,243408,21.2977,,S
+523,1,1,"Johnson, Mrs. Mary",female,28.0,0,0,265863,67.3265,B34,S
+524,0,3,"Brown, Mr. Joseph",male,27.0,1,0,PC 19923,27.65,,C
+525,1,1,"Andersson, Mrs. Helen",female,,1,0,385349,58.7867,C71,Q
+526,0,2,"Brown, Mr. Thomas",male,36.0,1,0,286936,29.3796,D89,S
+527,0,3,"Smith, Mr. Frederick",male,35.0,0,1,134540,49.0817,,S
+528,1,3,"Carter, Mrs. Elizabeth",female,33.0,0,0,153946,15.1814,,S
+529,1,3,"Harris, Miss. Ada",female,6.0,0,0,302941,9.2961,,S
+530,1,2,"Taylor, Miss. Clara",female,6.0,0,0,338681,25.7828,,S
+531,0,3,"Sage, Mr. George",male,19.0,0,0,PC 14487,10.8308,,S
+532,0,3,"Kelly, Mr. Thomas",male,30.0,0,2,384658,8.8702,,C
+533,0,2,"Moore, Mr. John",male,16.0,0,0,100309,29.8159,,S
+534,1,3,"Taylor, Mr. Arthur",male,33.0,1,1,325038,31.1457,,C
+535,0,1,"Taylor, Mr. Joseph",male,50.0,0,1,302094,82.6922,A60,S
+536,0,1,"Taylor, Mr. James",male,40.0,0,0,PC 14988,69.5606,D116,S
+537,0,3,"Taylor, Master. Henry",male,0.0,0,0,PC 18853,8.4707,,S
+538,1,1,"Baker, Miss. Anna",female,,0,0,354479,77.933,E42,S
+539,0,1,"Moore, Mr. Henry",male,63.0,0,0,161350,63.4107,,S
+540,0,3,"Johnson, Miss. Emily",female,18.0,0,0,PC 18278,8.2638,,S
+541,0,3,"Smith, Master. James",male,0.0,0,6,188571,67.043,,S
+542,0,3,"Harris, Mr. Frederick",male,41.0,0,0,PC 19856,17.2989,,S
+543,0,3,"Johnson, Mr. Thomas",male,25.0,1,1,110291,23.7114,,S
+544,0,3,"Sage, Mr. Henry",male,39.0,0,0,120786,21.3083,,S
+545,1,1,"Smith, Mrs. Ellen",female,42.0,0,3,PC 16205,179.0918,,S
+546,0,2,"Carter, Mr. Albert",male,36.0,0,0,133346,17.081,,Q
+547,0,2,"Williams, Mr. Charles",male,35.0,0,0,219006,24.066,,S
+548,0,1,"Johnson, Mrs. Ada",female,47.0,0,0,PC 18783,73.4277,E123,S
+549,0,3,"Taylor, Mrs. Alice",female,,1,0,PC 17825,19.6169,,S
+550,0,2,"Carter, Mr. Arthur",male,43.0,0,1,222308,28.6493,,S
+551,0,3,"Williams, Master. William",male,4.0,0,0,317464,11.3143,,S
+552,1,1,"Andersson, Mr. Edward",male,44.0,0,0,154386,43.2141,D70,
+553,1,1,"Andersson, Mr. John",male,53.0,0,0,PC 17613,90.3721,,S
+554,0,3,"Brown, Mr. Albert",male,,0,0,265092,12.3698,,S
+555,0,1,"Taylor, Mr. Albert",male,32.0,0,0,158633,32.643,D62,S
+556,1,1,"Williams, Mrs. Helen",female,53.0,0,0,349116,108.2721,,Q
+557,0,2,"Carter, Mr. Henry",male,42.0,3,0,345211,49.3411,,Q
+558,0,3,"Smith, Mr. Joseph",male,58.0,1,0,152791,55.7756,,S
+559,0,3,"Smith, Mr. Thomas",male,,8,0,135153,24.7854,,S
+560,1,3,"Williams, Miss. Florence",female,18.0,0,2,PC 15076,13.6045,,S
+561,1,1,"Moore, Mr. Edward",male,34.0,1,0,215950,55.4714,D84,S
+562,1,2,"Sage, Miss. Emily",female,24.0,0,0,269174,23.3091,,S
+563,1,3,"Harris, Miss. Anna",female,13.0,0,0,313163,15.1584,,S
+564,0,3,"Baker, Master. Albert",male,0.0,5,0,110413,15.9804,,S
+565,0,3,"Andersson, Mr. John",male,19.0,0,0,PC 16626,12.5526,,S
+566,1,3,"Brown, Master. Joseph",male,9.0,1,0,399556,5.8581,,S
+567,1,3,"Smith, Mr. John",male,,1,0,197784,25.0368,,Q
+568,1,1,"Palsson, Mrs. Anna",female,63.0,0,0,PC 17770,57.1384,C66,Q
+569,0,2,"Johnson, Mr. James",male,30.0,1,0,271333,23.7351,,S
+570,0,3,"Goodwin, Mrs. Alice",female,,0,3,110585,9.7339,,S
+571,0,2,"Williams, Master. Joseph",male,4.0,2,0,PC 15357,20.4036,,S
+572,0,3,"Brown, Mr. Henry",male,,1,0,177415,13.6995,,S
+573,0,3,"Carter, Mr. Edward",male,,0,0,360499,13.6229,,S
+574,1,3,"Allen, Mrs. Florence",female,43.0,0,0,217140,17.4138,,C
+575,0,3,"Andersson, Mrs. Anna",female,26.0,0,0,288997,28.1327,,S
+576,0,3,"Harris, Mr. James",male,31.0,0,0,PC 19410,19.7618,,S
+577,0,3,"Carter, Mr. Joseph",male,30.0,0,0,253663,22.1642,,Q
+578,1,3,"Taylor, Miss. Ellen",female,21.0,1,0,PC 18185,32.4665,,S
+579,0,3,"Baker, Mr. Henry",male,30.0,0,0,132911,18.2151,,S
+580,1,2,"Carter, Mrs. Elizabeth",female,59.0,1,2,PC 14968,29.8962,,C
+581,0,3,"Palsson, Mr. Frederick",male,21.0,0,0,216472,22.6906,,C
+582,0,3,"Kelly, Mr. James",male,30.0,0,1,147838,26.9414,,S
+583,0,1,"Smith, Mr. Joseph",male,54.0,0,0,399541,116.1752,C53,C
+584,0,2,"Palsson, Mr. John",male,45.0,1,2,304317,0.0,,S
+585,0,3,"Smith, Mr. Joseph",male,25.0,0,0,254444,8.995,,S
+586,0,3,"Sage, Master. Charles",male,0.0,0,0,PC 14659,11.9409,,S
+587,1,1,"Williams, Mrs. Florence",female,45.0,0,0,300287,124.0429,A105,C
+588,1,2,"Goodwin, Master. James",male,1.0,1,0,PC 19298,23.8936,,C
+589,0,1,"Johnson, Mr. Henry",male,57.0,0,0,390085,148.3021,,S
+590,0,1,"Allen, Mr. John",male,40.0,0,5,305849,283.7379,D129,S
+591,0,3,"Brown, Mr. Edward",male,38.0,1,0,PC 10445,28.6956,,C
+592,1,2,"Carter, Mr. John",male,18.0,1,0,290716,44.1262,,S
+593,0,2,"Allen, Master. James",male,4.0,0,0,253747,12.5037,,S
+594,0,3,"Andersson, Mr. Edward",male,28.0,0,1,PC 14295,20.0549,,C
+595,1,1,"Andersson, Mr. James",male,38.0,0,1,PC 12223,71.2941,B28,S
+596,1,2,"Baker, Miss. Elizabeth",female,,0,0,110012,9.2072,,S
+597,0,3,"Harris, Mr. Frederick",male,26.0,1,0,360657,13.6457,,S
+598,1,3,"Baker, Mrs. Edith",female,61.0,0,0,275674,26.5695,,S
+599,0,3,"Kelly, Mr. Arthur",male,36.0,0,0,332326,17.2492,,C
+600,0,3,"Smith, Mr. Thomas",male,39.0,0,1,365679,43.2096,,S
+601,0,3,"Andersson, Mrs. Emily",female,36.0,0,0,161651,14.9694,,S
+602,0,3,"Moore, Mr. Frederick",male,44.0,0,0,245433,46.5859,,S
+603,1,3,"Baker, Miss. Anna",female,23.0,0,0,279220,14.9716,,S
+604,0,3,"Rice, Master. Edward",male,0.0,0,0,177809,13.8549,,S
+605,1,3,"Carter, Mr. John",male,,4,1,PC 15113,12.6457,,S
+606,1,3,"Johnson, Mrs. Clara",female,36.0,1,0,360697,27.452,,S
+607,0,3,"Williams, Master. Joseph",male,12.0,0,0,120885,10.6582,,S
+608,0,1,"Baker, Mr. Charles",male,36.0,0,0,109067,60.782,B49,S
+609,1,3,"Andersson, Miss. Helen",female,16.0,0,2,PC 12787,33.7971,,S
+610,1,2,"Andersson, Mrs. Elizabeth",female,50.0,0,0,344886,37.4735,,S
+611,1,3,"Rice, Miss. Alice",female,2.0,0,2,PC 11442,31.3679,,S
+612,0,3,"Palsson, Mr. Edward",male,33.0,1,0,143974,13.1453,,S
+613,0,3,"Harris, Mr. Henry",male,,0,1,158020,15.3585,,S
+614,0,3,"Brown, Mrs. Emily",female,25.0,0,0,PC 13064,13.2961,,S
+615,0,2,"Rice, Mr. William",male,,0,0,PC 10558,31.0557,,S
+616,1,3,"Andersson, Miss. Florence",female,10.0,0,0,130539,29.7902,,S
+617,0,3,"Baker, Master. George",male,1.0,4,0,144185,26.3501,,C
+618,1,2,"Taylor, Master. William",male,7.0,0,0,118405,56.3717,,S
+619,1,1,"Allen, Miss. Ada",female,,1,0,107087,151.2866,E52,S
+620,0,1,"Carter, Mr. Henry",male,,1,0,187290,85.8996,E11,S
+621,0,3,"Brown, Mr. Henry",male,45.0,0,0,289597,20.7335,,S
+622,0,3,"Allen, Mr. Albert",male,45.0,0,0,380702,32.1485,,S
+623,1,3,"Andersson, Miss. Alice",female,,0,0,317190,37.2086,,S
+624,0,3,"Palsson, Miss. Ada",female,20.0,1,2,190472,35.9599,,S
+625,0,3,"Andersson, Mr. Edward",male,31.0,0,2,287966,18.0401,,C
+626,0,2,"Moore, Mr. Joseph",male,,0,0,121492,18.8436,,S
+627,1,3,"Sage, Miss. Elizabeth",female,3.0,1,0,136134,21.0141,,C
+628,1,1,"Williams, Mr. James",male,53.0,1,0,179500,223.0879,,C
+629,0,3,"Brown, Mr. Charles",male,20.0,0,0,PC 19869,17.0181,,S
+630,0,3,"Brown, Mr. James",male,14.0,0,1,131299,19.7751,,Q
+631,0,3,"Goodwin, Mr. James",male,35.0,1,0,323757,16.1651,,Q
+632,1,3,"Brown, Miss. Ellen",female,,0,0,184629,11.6284,,S
+633,1,1,"Moore, Mrs. Florence",female,35.0,1,0,193619,89.0779,C86,S
+634,1,2,"Smith, Mrs. Elizabeth",female,29.0,0,0,257916,22.4712,,S
+635,0,1,"Goodwin, Mr. Edward",male,59.0,0,1,113452,228.0646,,S
+636,0,1,"Sage, Mr. Albert",male,33.0,1,0,328116,85.6888,D126,S
+637,0,3,"Moore, Master. Edward",male,0.0,0,0,157298,14.0652,,S
+638,1,3,"Goodwin, Mr. Frederick",male,,0,0,305329,8.888,,S
+639,0,3,"Brown, Mr. Edward",male,16.0,0,2,383690,25.4846,,C
+640,1,3,"Baker, Mr. William",male,26.0,0,0,203504,27.1326,,S
+641,0,3,"Smith, Mr. George",male,24.0,1,1,383476,40.1254,,S
+642,0,3,"Williams, Mr. Albert",male,21.0,0,2,PC 17246,19.7162,,S
+643,1,1,"Carter, Mrs. Ellen",female,48.0,0,0,138071,111.9435,C38,C
+644,1,1,"Baker, Master. Frederick",male,12.0,0,2,PC 12442,101.1299,C125,S
+645,0,3,"Goodwin, Mr. Albert",male,18.0,3,0,282259,25.867,,S
+646,1,3,"Goodwin, Mrs. Elizabeth",female,34.0,0,0,371746,16.0287,,S
+647,1,1,"Goodwin, Mrs. Margaret",female,30.0,3,0,329774,125.4005,,S
+648,1,3,"Kelly, Miss. Ellen",female,4.0,1,0,339786,16.8784,,C
+649,0,3,"Kelly, Mr. James",male,34.0,0,0,172586,17.1733,,S
+650,1,1,"Baker, Mrs. Emily",female,53.0,1,0,226153,83.3878,C97,S
+651,0,2,"Palsson, Mr. Frederick",male,29.0,1,0,255324,21.3924,,S
+652,1,3,"Palsson, Master. Joseph",male,0.0,0,0,368792,32.1714,,C
+653,0,3,"Rice, Mr. Thomas",male,34.0,0,0,132055,53.1261,,C
+654,0,1,"Taylor, Mr. Edward",male,16.0,1,0,305902,52.8996,B28,S
+655,0,3,"Brown, Mr. John",male,29.0,1,0,260043,8.3932,,C
+656,0,2,"Moore, Mr. Arthur",male,18.0,1,5,PC 13910,24.7246,,S
+657,1,3,"Baker, Miss. Anna",female,10.0,8,2,198949,32.5261,,C
+658,1,2,"Moore, Mr. Arthur",male,24.0,0,0,162415,32.8651,,C
+659,0,3,"Rice, Mr. Charles",male,23.0,1,0,164902,21.1742,,S
+660,0,2,"Harris, Mr. Charles",male,,1,0,109969,26.3192,,S
+661,0,2,"Smith, Mr. Henry",male,38.0,0,0,332262,27.3575,,S
+662,1,3,"Andersson, Master. William",male,10.0,0,0,391943,9.6925,,S
+663,1,1,"Smith, Mr. Charles",male,51.0,0,0,289076,74.3479,A29,S
+664,1,1,"Smith, Master. Arthur",male,1.0,1,0,345424,95.6343,D15,S
+665,1,2,"Moore, Miss. Edith",female,21.0,0,0,PC 12359,9.5107,,S
+666,1,3,"Williams, Miss. Anna",female,14.0,1,0,268979,8.8154,,S
+667,1,3,"Harris, Master. Edward",male,4.0,0,0,159768,7.8194,,S
+668,0,3,"Smith, Mr. Arthur",male,,0,1,PC 13353,23.0857,,S
+669,1,2,"Carter, Mrs. Edith",female,,0,0,171381,23.7409,,S
+670,1,2,"Johnson, Miss. Helen",female,,0,0,PC 18570,28.5042,,S
+671,1,1,"Carter, Mr. James",male,31.0,1,0,PC 13734,38.5036,B67,C
+672,1,3,"Goodwin, Miss. Ada",female,13.0,0,0,368498,6.5248,B3,Q
+673,0,3,"Harris, Mrs. Alice",female,45.0,1,0,327490,21.95,,S
+674,0,3,"Palsson, Miss. Alice",female,3.0,0,0,354976,3.4146,,S
+675,0,3,"Kelly, Master. Frederick",male,,8,0,316879,0.0,,S
+676,0,2,"Allen, Mr. Thomas",male,44.0,0,0,187490,8.439,,Q
+677,1,3,"Sage, Mr. Arthur",male,,0,0,PC 10812,20.8858,,S
+678,0,3,"Harris, Mr. James",male,,0,0,239153,8.7855,,C
+679,0,1,"Taylor, Mr. Edward",male,,0,0,PC 13549,141.9207,,S
+680,1,2,"Williams, Mr. Albert",male,38.0,0,0,PC 12991,104.439,,S
+681,1,1,"Baker, Master. Albert",male,8.0,1,1,384284,35.0436,,S
+682,1,1,"Sage, Mr. Albert",male,14.0,0,0,131234,118.9265,C91,C
+683,1,1,"Rice, Miss. Clara",female,,0,0,306038,34.0127,A92,C
+684,0,3,"Harris, Mr. Thomas",male,45.0,0,2,220896,22.0463,,S
+685,0,3,"Andersson, Mr. Albert",male,19.0,0,0,165916,12.3544,,S
+686,1,2,"Harris, Mrs. Ada",female,31.0,1,0,119864,25.7691,,S
+687,0,2,"Harris, Mrs. Emily",female,,0,0,337174,13.3122,,Q
+688,1,3,"Johnson, Miss. Alice",female,2.0,1,0,PC 18094,23.2761,,S
+689,1,3,"Harris, Miss. Anna",female,18.0,8,0,220793,14.6095,,C
+690,1,3,"Brown, Mrs. Ellen",female,25.0,0,1,278788,29.3114,,S
+691,0,2,"Andersson, Mr. Edward",male,54.0,0,2,376254,22.2482,,S
+692,0,3,"Carter, Master. George",male,5.0,0,0,PC 19317,6.7941,,S
+693,1,1,"Johnson, Mr. George",male,51.0,0,0,280023,186.4728,D96,S
+694,0,2,"Harris, Mr. Henry",male,,0,0,PC 16170,20.3047,,C
+695,1,3,"Williams, Mrs. Mary",female,,2,0,173948,0.0,,C
+696,0,3,"Moore, Mr. Albert",male,22.0,0,0,258104,25.231,,C
+697,0,3,"Moore, Mr. Thomas",male,,0,0,240454,9.1919,,S
+698,0,3,"Allen, Master. John",male,12.0,1,0,210636,15.0995,,C
+699,0,3,"Moore, Mr. James",male,29.0,0,0,214469,0.0,,S
+700,0,2,"Carter, Mr. Arthur",male,43.0,1,0,PC 15578,51.8024,,S
+701,1,2,"Goodwin, Mr. Arthur",male,,0,0,PC 18166,26.1352,,S
+702,1,2,"Carter, Mrs. Anna",female,31.0,0,0,207989,22.9351,A102,S
+703,0,1,"Smith, Mr. John",male,45.0,2,2,PC 16122,121.6175,C90,S
+704,1,3,"Smith, Miss. Helen",female,12.0,1,0,317494,15.3617,,S
+705,1,2,"Smith, Miss. Elizabeth",female,3.0,1,0,369664,46.3666,,S
+706,0,3,"Sage, Mr. Edward",male,36.0,0,0,PC 11237,13.7254,,S
+707,0,3,"Palsson, Mr. James",male,59.0,1,0,380898,12.9314,,S
+708,1,3,"Moore, Miss. Emily",female,20.0,0,2,PC 13768,13.4302,,S
+709,0,2,"Kelly, Mr. George",male,24.0,0,2,179796,20.6973,,C
+710,0,3,"Taylor, Mrs. Helen",female,,0,0,378771,6.7961,,S
+711,0,3,"Andersson, Mr. Charles",male,36.0,0,0,227566,9.4141,,S
+712,0,3,"Johnson, Miss. Anna",female,3.0,0,0,PC 19372,28.98,,C
+713,1,3,"Kelly, Miss. Elizabeth",female,,0,0,PC 16120,12.3554,,C
+714,0,3,"Kelly, Mr. James",male,32.0,1,0,345669,22.4068,,C
+715,0,3,"Allen, Mr. John",male,14.0,1,0,111307,4.5621,,C
+716,1,1,"Andersson, Mrs. Ada",female,,2,0,PC 13834,145.0875,,Q
+717,0,3,"Smith, Mr. Thomas",male,26.0,0,0,256110,0.0,,S
+718,0,1,"Harris, Mr. Thomas",male,51.0,2,0,PC 17567,85.8379,D83,Q
+719,0,3,"Kelly, Mr. John",male,,0,0,PC 10943,14.9974,,Q
+720,0,3,"Sage, Master. Frederick",male,1.0,0,0,384302,10.6919,,S
+721,1,3,"Allen, Miss. Ada",female,0.0,1,0,208990,5.4478,,C
+722,1,2,"Goodwin, Miss. Edith",female,14.0,0,0,396292,33.303,,C
+723,1,1,"Sage, Mr. Joseph",male,21.0,0,0,371349,94.8527,,C
+724,1,3,"Allen, Miss. Edith",female,23.0,0,0,388954,11.7098,,C
+725,0,1,"Harris, Master. George",male,8.0,0,0,309094,51.8173,E2,S
+726,1,1,"Johnson, Mr. Arthur",male,29.0,1,1,139614,52.3657,E55,S
+727,0,2,"Sage, Mr. Frederick",male,20.0,0,2,PC 18247,30.5338,,S
+728,1,1,"Palsson, Mrs. Mary",female,32.0,0,0,280867,188.206,,C
+729,0,3,"Palsson, Mr. Charles",male,42.0,0,0,175737,15.1648,,C
+730,0,3,"Andersson, Master. Thomas",male,3.0,0,0,PC 18861,6.8621,,C
+731,0,2,"Palsson, Mr. John",male,30.0,1,0,228516,27.0272,,C
+732,1,1,"Allen, Mrs. Clara",female,,3,0,282418,118.5944,B116,Q
+733,1,1,"Johnson, Mr. James",male,32.0,1,0,382553,148.7996,A71,S
+734,0,2,"Smith, Mr. Edward",male,34.0,1,0,165964,32.709,,Q
+735,1,1,"Taylor, Mrs. Ada",female,46.0,0,0,120715,18.8763,,S
+736,1,3,"Smith, Mr. Charles",male,13.0,1,0,201351,20.6927,,S
+737,0,1,"Smith, Mr. George",male,38.0,0,0,315819,50.86,A39,S
+738,0,2,"Williams, Master. Joseph",male,4.0,0,0,141863,10.3156,,S
+739,0,2,"Moore, Mr. Frederick",male,33.0,0,0,199653,19.1114,,S
+740,0,2,"Johnson, Mr. William",male,40.0,0,0,PC 11179,25.7905,,S
+741,1,1,"Williams, Mrs. Margaret",female,,1,0,219916,42.5301,E3,S
+742,0,1,"Kelly, Mr. Joseph",male,,1,0,368814,137.396,D103,C
+743,1,3,"Goodwin, Miss. Ada",female,14.0,3,0,279655,29.0968,,S
+744,1,1,"Goodwin, Mrs. Margaret",female,41.0,0,0,268275,85.9964,D15,S
+745,0,3,"Brown, Mr. George",male,,0,1,PC 10393,10.2098,,S
+746,0,3,"Rice, Mr. Albert",male,,1,0,348391,9.6549,,S
+747,1,2,"Sage, Mrs. Elizabeth",female,29.0,0,0,PC 10007,35.075,,S
+748,0,2,"Smith, Mr. James",male,31.0,0,0,PC 15430,0.0,,S
+749,1,3,"Palsson, Mrs. Ellen",female,36.0,0,1,PC 15740,26.8266,,C
+750,0,3,"Palsson, Miss. Mary",female,4.0,4,0,PC 10409,20.1822,,S
+751,0,2,"Sage, Mr. William",male,30.0,1,1,PC 17983,26.0227,,C
+752,0,2,"Kelly, Mr. Joseph",male,41.0,0,0,322646,8.9395,,S
+753,1,2,"Williams, Mr. Joseph",male,21.0,0,0,PC 15866,19.5146,,C
+754,1,3,"Williams, Master. Henry",male,,0,0,294246,18.6191,,Q
+755,0,3,"Carter, Mr. George",male,15.0,0,0,PC 16133,7.023,,S
+756,1,1,"Brown, Mr. Henry",male,,0,0,PC 15655,107.7846,C71,S
+757,1,2,"Baker, Mrs. Ellen",female,,0,0,334603,21.9557,,S
+758,0,3,"Goodwin, Miss. Edith",female,,0,0,PC 12885,9.9296,,S
+759,1,1,"Smith, Miss. Edith",female,,0,1,304363,148.1041,,S
+760,0,3,"Andersson, Mr. Joseph",male,18.0,0,0,255026,4.5552,,S
+761,0,3,"Baker, Mr. Arthur",male,41.0,0,0,354785,16.293,,C
+762,0,1,"Sage, Mr. Arthur",male,45.0,0,0,305863,188.771,B64,Q
+763,0,1,"Allen, Mr. John",male,41.0,1,1,PC 16803,224.3377,A36,S
+764,1,1,"Andersson, Miss. Ada",female,5.0,0,2,PC 19650,132.6991,A38,S
+765,1,3,"Moore, Master. Arthur",male,,1,0,296066,13.5491,,S
+766,0,1,"Sage, Mr. Thomas",male,54.0,0,2,314793,79.4621,A53,S
+767,1,1,"Rice, Mrs. Mary",female,50.0,0,1,PC 13522,83.0228,B72,C
+768,0,1,"Moore, Mr. Joseph",male,58.0,0,1,PC 14936,126.7837,A73,S
+769,1,1,"Palsson, Mr. Charles",male,43.0,0,1,228565,64.5188,C73,S
+770,0,3,"Baker, Master. Edward",male,,0,0,PC 12631,20.0075,,S
+771,0,2,"Smith, Mr. Henry",male,26.0,1,0,139289,70.1661,,S
+772,0,3,"Taylor, Miss. Mary",female,17.0,2,0,PC 18631,17.2674,,S
+773,0,3,"Goodwin, Mr. William",male,47.0,0,0,231007,6.995,,S
+774,0,3,"Harris, Miss. Clara",female,,0,0,236714,6.9938,,S
+775,1,1,"Carter, Mrs. Mary",female,48.0,1,0,PC 14772,142.4315,E2,S
+776,1,3,"Smith, Mrs. Florence",female,27.0,0,2,389398,17.2858,,C
+777,0,3,"Moore, Mr. Thomas",male,17.0,0,0,122041,21.2384,,S
+778,0,1,"Moore, Mr. Charles",male,38.0,1,4,185612,112.5745,B59,C
+779,0,3,"Smith, Mrs. Emily",female,,0,0,PC 17714,20.7533,,S
+780,0,3,"Baker, Mr. Thomas",male,32.0,0,0,365945,12.6575,,S
+781,1,2,"Baker, Master. Joseph",male,,0,0,311573,14.5599,,C
+782,0,3,"Sage, Miss. Florence",female,22.0,0,1,176035,12.8927,,S
+783,0,3,"Sage, Mr. John",male,48.0,0,0,168963,7.5298,,S
+784,1,3,"Taylor, Miss. Alice",female,22.0,1,0,361593,42.5993,,S
+785,0,3,"Allen, Miss. Florence",female,2.0,0,0,375317,13.0554,,C
+786,1,2,"Johnson, Mrs. Florence",female,,1,0,321739,0.0,,Q
+787,0,3,"Kelly, Mr. Henry",male,,1,0,296972,12.0459,,S
+788,1,2,"Carter, Mrs. Edith",female,29.0,1,1,380772,16.1339,,S
+789,0,3,"Andersson, Mr. John",male,20.0,0,0,179406,12.188,,S
+790,1,3,"Sage, Mrs. Anna",female,,0,1,273025,27.3237,,S
+791,1,1,"Andersson, Mrs. Ellen",female,31.0,0,0,209411,64.7446,A66,S
+792,1,2,"Taylor, Mrs. Florence",female,,0,5,166553,23.7807,B94,S
+793,0,2,"Kelly, Mr. Frederick",male,37.0,2,0,PC 18927,29.5067,,C
+794,1,1,"Sage, Mr. William",male,41.0,0,0,229476,107.8054,C19,S
+795,0,1,"Rice, Mr. Henry",male,40.0,1,0,326844,219.6429,,C
+796,0,2,"Kelly, Mr. Joseph",male,28.0,0,0,389234,25.0631,,S
+797,0,1,"Goodwin, Mr. William",male,52.0,0,0,PC 14160,115.9099,,C
+798,1,1,"Johnson, Mr. Henry",male,27.0,0,0,PC 13271,120.356,C91,S
+799,1,3,"Smith, Master. Joseph",male,4.0,1,0,358816,8.8521,,S
+800,0,3,"Carter, Mrs. Elizabeth",female,33.0,0,0,124862,8.4632,,S
+801,0,3,"Allen, Mrs. Alice",female,33.0,0,0,303767,7.9681,,S
+802,0,2,"Sage, Mr. William",male,36.0,1,6,325896,22.1157,,S
+803,0,3,"Palsson, Miss. Clara",female,7.0,0,0,310734,20.3917,,S
+804,0,3,"Allen, Miss. Elizabeth",female,,0,0,158046,15.8381,,S
+805,0,1,"Taylor, Mr. John",male,,0,0,364777,87.4061,,S
+806,0,1,"Williams, Mr. James",male,37.0,0,0,399602,22.9762,B69,C
+807,0,3,"Taylor, Miss. Mary",female,19.0,0,0,253278,38.2879,,C
+808,1,1,"Harris, Mrs. Elizabeth",female,,0,0,360135,0.0,D68,S
+809,1,3,"Andersson, Mrs. Ellen",female,51.0,0,0,363889,38.2178,,Q
+810,1,3,"Rice, Miss. Mary",female,2.0,0,0,171194,6.6378,,S
+811,1,1,"Brown, Mrs. Margaret",female,,0,0,243652,55.9588,A29,S
+812,0,1,"Baker, Mr. James",male,16.0,0,0,PC 10430,27.9214,,C
+813,0,3,"Brown, Mr. George",male,24.0,0,2,309052,21.3451,A102,S
+814,0,3,"Kelly, Master. James",male,8.0,0,0,301690,7.8992,,S
+815,1,1,"Harris, Miss. Ellen",female,11.0,0,0,317369,49.1225,B79,S
+816,0,3,"Brown, Mr. Edward",male,,0,0,357727,6.8974,,S
+817,0,3,"Smith, Mr. Edward",male,20.0,0,0,368314,20.2079,,S
+818,0,3,"Williams, Miss. Elizabeth",female,0.0,1,1,PC 16126,25.4189,,S
+819,0,3,"Andersson, Mr. Arthur",male,,1,0,148069,38.9849,,S
+820,1,2,"Harris, Mrs. Florence",female,,0,0,339936,14.9046,,S
+821,0,1,"Andersson, Mr. James",male,57.0,0,0,118555,93.712,C42,S
+822,1,3,"Smith, Mrs. Helen",female,30.0,0,0,208535,7.1903,,S
+823,1,2,"Kelly, Mrs. Edith",female,31.0,1,2,302463,25.7534,,C
+824,0,3,"Rice, Mr. Thomas",male,42.0,0,0,132039,10.5695,,C
+825,0,3,"Sage, Mrs. Alice",female,47.0,0,0,140450,17.2812,,S
+826,0,1,"Palsson, Mr. Joseph",male,53.0,0,1,249457,160.6278,A46,C
+827,0,3,"Palsson, Mr. James",male,,0,0,112230,22.4868,,S
+828,1,1,"Kelly, Mrs. Ada",female,,0,0,232888,55.1144,,S
+829,1,3,"Kelly, Mrs. Elizabeth",female,31.0,1,0,PC 10839,25.9557,,S
+830,1,2,"Andersson, Master. James",male,6.0,1,0,265112,23.6235,,S
+831,0,3,"Rice, Mr. James",male,,0,1,147455,13.3947,D111,C
+832,1,3,"Allen, Mrs. Alice",female,,0,0,386340,9.6132,,Q
+833,0,2,"Johnson, Mr. Arthur",male,,0,0,101499,15.872,,S
+834,0,3,"Goodwin, Mr. Frederick",male,44.0,0,1,166852,37.6493,,S
+835,0,3,"Moore, Mr. Arthur",male,27.0,0,0,PC 19403,15.9762,,S
+836,0,3,"Goodwin, Mr. Henry",male,24.0,0,0,172147,14.9499,,S
+837,1,3,"Goodwin, Mrs. Helen",female,,1,0,170645,13.8189,,S
+838,0,3,"Brown, Mr. George",male,14.0,4,1,PC 19748,81.4509,,Q
+839,0,2,"Carter, Mr. James",male,17.0,0,0,PC 16938,40.3273,,C
+840,0,3,"Taylor, Mrs. Clara",female,41.0,0,0,PC 18617,9.5531,,Q
+841,1,1,"Sage, Mr. Charles",male,56.0,0,0,118473,73.2596,E72,S
+842,1,3,"Taylor, Miss. Helen",female,1.0,0,0,151162,12.3083,,S
+843,0,3,"Goodwin, Master. Henry",male,,0,0,205840,14.7366,,S
+844,1,2,"Williams, Mrs. Edith",female,29.0,0,0,315140,14.7894,,Q
+845,1,1,"Andersson, Mrs. Elizabeth",female,42.0,0,0,225896,104.6085,B54,S
+846,1,3,"Goodwin, Mrs. Florence",female,,1,2,304865,41.0587,,S
+847,0,2,"Baker, Mr. Edward",male,43.0,0,0,169696,10.8885,,S
+848,0,3,"Smith, Mr. Arthur",male,26.0,0,0,132764,7.7938,,C
+849,1,1,"Sage, Mrs. Mary",female,56.0,0,0,203008,65.9725,,C
+850,0,3,"Allen, Mr. William",male,29.0,4,2,143891,20.9231,,S
+851,0,1,"Sage, Mr. Charles",male,46.0,0,2,PC 18183,296.6088,B128,S
+852,0,1,"Johnson, Mr. Arthur",male,27.0,0,0,160105,138.611,,C
+853,1,3,"Harris, Mrs. Ada",female,53.0,0,0,PC 12117,21.9673,,S
+854,0,3,"Carter, Mrs. Ellen",female,31.0,0,0,362895,12.0037,,S
+855,0,1,"Rice, Mr. William",male,47.0,8,1,329086,171.0704,B41,S
+856,1,3,"Moore, Miss. Elizabeth",female,4.0,0,0,156567,6.6296,,S
+857,0,3,"Baker, Mr. Joseph",male,14.0,1,0,342340,23.2901,,S
+858,0,3,"Harris, Mr. William",male,41.0,0,0,PC 19314,17.5126,,Q
+859,0,2,"Allen, Mr. Henry",male,34.0,0,2,348909,51.9294,,S
+860,0,3,"Baker, Master. Arthur",male,,0,1,PC 10089,14.1787,,S
+861,0,3,"Carter, Mr. George",male,38.0,0,2,226037,16.5912,,S
+862,1,3,"Sage, Miss. Alice",female,18.0,0,0,336372,0.0,,S
+863,1,3,"Smith, Mrs. Mary",female,43.0,0,1,376465,24.6089,,S
+864,1,3,"Rice, Mr. Thomas",male,24.0,0,1,PC 18045,7.5538,,S
+865,0,1,"Sage, Mr. Edward",male,41.0,1,0,200843,139.5757,A98,S
+866,0,3,"Allen, Mr. George",male,40.0,4,0,252412,21.6965,,S
+867,1,3,"Rice, Miss. Anna",female,13.0,0,6,162795,15.3318,,S
+868,1,3,"Carter, Miss. Anna",female,12.0,0,0,376246,4.8312,,S
+869,1,1,"Harris, Mrs. Anna",female,35.0,1,0,351833,90.2282,B65,S
+870,0,1,"Baker, Mr. Joseph",male,49.0,0,0,105272,173.2392,B85,S
+871,0,3,"Andersson, Master. Joseph",male,8.0,1,0,PC 15223,36.3975,,S
+872,1,1,"Kelly, Mr. Henry",male,16.0,0,0,119792,100.334,B20,S
+873,0,3,"Brown, Mr. Henry",male,,1,0,PC 13605,42.0206,,Q
+874,0,2,"Johnson, Mr. John",male,22.0,0,0,250503,20.5539,,S
+875,0,3,"Allen, Mr. Henry",male,20.0,0,1,103096,25.3761,,C
+876,1,3,"Williams, Miss. Mary",female,1.0,0,0,222441,10.9329,,S
+877,0,2,"Sage, Mr. Albert",male,21.0,0,0,192990,16.2359,,C
+878,1,2,"Goodwin, Mr. James",male,30.0,1,1,277649,19.4555,,S
+879,0,3,"Baker, Mrs. Helen",female,37.0,8,0,116529,10.7573,,S
+880,1,3,"Allen, Mr. James",male,15.0,0,0,105001,26.0741,,S
+881,0,2,"Williams, Mrs. Edith",female,,0,1,173337,17.5222,,S
+882,0,3,"Kelly, Mr. John",male,16.0,0,0,129385,9.1768,,Q
+883,1,3,"Johnson, Miss. Ada",female,16.0,0,0,355075,7.5944,,S
+884,0,3,"Taylor, Mr. James",male,,0,0,300458,12.3693,,S
+885,1,1,"Moore, Mr. Frederick",male,,1,2,227005,294.1608,B58,S
+886,1,2,"Kelly, Miss. Ellen",female,23.0,1,0,148759,68.7979,,S
+887,1,2,"Williams, Mr. William",male,28.0,0,0,327077,9.1531,,S
+888,0,1,"Goodwin, Mr. William",male,,0,2,343577,91.4651,,C
+889,0,1,"Kelly, Mr. George",male,57.0,0,0,346314,0.0,A101,S
+890,1,3,"Brown, Mr. Frederick",male,14.0,0,0,332151,22.4562,,C
+891,0,2,"Palsson, Mrs. Clara",female,29.0,0,0,194170,24.2355,,S
